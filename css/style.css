@@ -1,0 +1,145 @@
+:root {
+    --main-color: #0969da;
+    --color-black: #202329;
+    --color-gray: #b3b3b3;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    color: var(--color-black);
+}
+
+hr {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.img {
+    filter: saturate(40%);
+    -webkit-filter: saturate(40%);
+}
+
+/* Otros estilos */
+
+/* .dot-live {
+    width: 8px;
+    animation-name: desaparecer;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* 
+    El siguiente bloque permite una mejor visualización de la posición de los elementos.
+    Le agrega márgenes y colores de fondo diferentes a cada elemento para que pueda diferenciarse uno con el otro.
+    
+*/
+    
+/* .seccion {
+    background-color: #D5E8D4;
+}
+
+.seccion__header {
+    background-color: #FFF2CC;
+}
+
+.seccion__title {
+    margin-left: 5px;
+    background-color: #E1D5E7;
+}
+
+.seccion__ver-mas {
+    margin: 5px;
+    background-color: #E1D5E7;
+}
+
+.seccion__body {
+    margin-top: 5px;
+    background-color: #FFF2CC;
+}
+
+.seccion__links {
+    background-color: #DAE8FC;
+}
+
+.seccion__article {
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+.seccion__art1 div {
+    background-color: #FFE6CC;
+}
+
+.seccion__h3,
+.seccion__p,
+.seccion__footer {
+    background-color: #F8CECC;
+}
+
+.seccion__ico,
+.seccion__span {
+    background-color: #60A917;
+}
+
+.seccion__art1,
+.seccion__art2,
+.seccion__art3 {
+    filter:grayscale(0);
+    -webkit-filter:grayscale(0);
+}
+
+.apartados__body {
+    margin-top: 5px;
+}
+
+.covid-19 {
+    background-color: #FFF2CC;
+    margin: 5px;
+}
+
+.covid-19__links {
+    margin: 5px;
+    background-color: #DAE8FC;
+}
+
+.covid-19 div {
+    margin: 5px;
+    background-color: #F5F5F5;
+}
+
+.covid-19__icons {
+
+}
+
+.covid-19 h4 {
+    margin: 5px;
+    background-color: #FFE6CC;
+}
+
+.historias__body {
+    background-color: #FFF2CC;
+}
+
+.historias__links {
+    background-color: #DAE8FC;
+}
+
+.historias__text {
+    background-color: #F5F5F5;
+} 
+
+.dolar-hoy__art2,
+.dolar-hoy__art3 {
+    background-color: #DAE8FC;
+}*/

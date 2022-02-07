@@ -1,0 +1,16 @@
+/* Animaciones */
+
+@keyframes desaparecer {
+    0% { opacity: 100%; }
+    50% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+@keyframes quitar-fondo {
+    100% { background: transparent; }
+}
+
+@keyframes scroll-text {
+    to { transform: translateX(-100%); }
+    from { transform: translateX(100%) }
+}

@@ -1,0 +1,40 @@
+.dolar-hoy__art2,
+.dolar-hoy__art3 {
+    display: flex;
+    flex-direction: column;
+    height: 238px;
+}
+
+.dolar-hoy__art2 > *,
+.dolar-hoy__art3 > *{
+    margin: 5px;
+    background-color: #F5F5F5;
+}
+
+.dolar-hoy__h3 {
+    font-family: 'Poppins Regular';
+    font-size: 2em;
+    color: #70A38B;
+}
+
+.dolar-hoy__price {
+    font-family: 'NotoSerifDisplay-Regular';
+    font-size: 4.5em;
+}
+
+.dolar-hoy__art3 {
+    justify-content: flex-end;
+    padding-right: 100px;
+    text-align: end;
+}
+
+.dolar-hoy__art2 {
+    padding-left: 100px;
+    border-bottom: 3px solid #767676;
+}
+
+.dolar {
+    background: url(../assets/images/dolar.jpg);
+    background-size: cover; 
+    background-position: center;
+}

@@ -1,0 +1,47 @@
+.covid-19 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    background-color: rgba(229, 229, 229, 0.6);
+}
+
+.covid-19__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 25%;
+}
+
+.covid-19 div {
+    display: block;
+}
+
+.covid-19__icons {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.covid-19 h4 {
+    margin: 0;
+    font-family: 'Poppins Bold';
+    font-size: 1.35em;
+}
+
+.covid-19__footer {
+    padding: 5px;
+    font-family: 'Lato Bold';
+    font-size: 1.5em;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #FE4342;
+    overflow: hidden;
+}
+
+.covid-19__scroll-text {
+    margin: 0;
+    animation: scroll-text;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:wght@600&family=Poppins:wght@400;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reglas.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/seccion.css">
+    <!-- <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/apartados.css">
+    <link rel="stylesheet" href="css/covid-19.css">
+    <link rel="stylesheet" href="css/historias.css">
+    <link rel="stylesheet" href="css/dolar-hoy.css"> -->
+
+    <title>LA FIRMA | Nuestro compromiso con la gente</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__flex">
+            <a href="#" class="header__title">LA FIRMA</a>
+        </div>
+        <div class="header__flex">
+            <a href="#" class="header__link">
+                <img class="header__usuario" src="images/icon-usuario.png" alt="Icono Usuario">
+            </a>
+            <a href="#" class="header__link">
+                <img class="header__menu" src="images/icon-menu.png" alt="Icono Menu">
+            </a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero__flex">
+            <img src="images/icon-calendar.ico" alt="Icono Calendario" class="hero__calendar">
+            <span class="hero__update">19 ENE 2022 | <span>ACTUALIZADO </span>11:09</span>
+        </div>
+        <div class="hero__flex">
+            <img src="images/logo.png" alt="Imagen Logo" class="hero__logo">
+            <h1>La Firma</h1>
+            <span class="hero__slogan">Nuestro compromiso con la gente</span>
+            <input type="search" placeholder="Buscar..." class="hero__input">
+        </div>
+    </section>
+
+    <main>
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__name">Últimas noticias</h2>
+                <a href="#" class="section__ver-mas">Ver más</a>
+            </header>
+            <section class="section__body">
+                <a href="#" class="section__link">
+                    <article class="section__article">
+                        <img src="images/kicillof.jpg" alt="Imagen Kicillof" class="img section__img--portada">
+                        <div class="section__flex">
+                            <h3 class="section__title">
+                                Kicillof respaldó a Guzmán en la negociación por la deuda externa
+                            </h3>
+                            <p class="section__resume">
+                                El gobernador bonaerense se reunió con el Presidente y repasaron la gestión en la provincia de Buenos Aires
+                            </p>
+                            <footer class="section__footer">
+                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                <span class="section__lectura">11 min de lectura</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+                <hr>
+                <a href="#" class="section__link">
+                    <article class="section__article">
+                        <img src="images/guzman.jpg" alt="Imagen Guzmán" class="img section__img">
+                        <div class="section__flex">
+                            <h3 class="section__title">
+                                Sigue la tensión por la deuda: se cayó la reunión de Martín Guzmán con los gobernadores de Juntos por el Cambio
+                            </h3>
+                            <p class="section__resume">
+                                Se iban a reunir este martes para que el ministro les informe sobre la deuda. Gerardo Morales dijo que la reunión no se hace porque “Guzmán no quiere dar cuenta del ajuste que pactó con el Fondo”
+                            </p>
+                            <footer class="section__footer">
+                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                <span class="section__lectura">6 min de lectura</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+                <hr>
+                <a href="#" class="section__link">
+                    <article class="section__article">
+                        <img src="images/lewandowsky.jpg" alt="Imagen Lewandowsky" class="img section__img">
+                        <div class="section__flex">
+                            <h3 class="section__title">
+                                Robert Lewandowski superó a Messi y ganó el premio The Best 2021
+                            </h3>
+                            <p class="section__resume">
+                                El delantero polaco, que ya había sido distinguido por la FIFA en 2020, se sacó la espina tras haber perdido el Balón de Oro ante La Pulga.
+                            </p>
+                            <footer class="section__footer">
+                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                <span class="section__lectura">2 min de lectura</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+            </section>
+        </section>
+    </main>
+
+    <!-- <nav class="nav">
+        <ul class="nav__menu">
+            <a href="#" class="nav__link"><li class="nav__item">Últimas noticias</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Apartados</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Covid-19</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Lo mejor de la semana</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Dolar hoy</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Crucigramas</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Contacto</li></a>
+        </ul>
+    </nav> -->
+
+    <!-- <main>
+        <section class="seccion">
+            <header class="seccion__header">
+                <h2 class="seccion__title">ÚLTIMAS NOTICIAS</h2>
+                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
+            </header>
+            <section class="seccion__body">
+                <a href="#" class="seccion__links seccion__link1">
+                    <article class="seccion__article seccion__art1 kicillof capa">
+                        <div>
+                            <h3 class="seccion__h3">
+                                Kicillof respaldó a Guzmán en la negociación por la deuda externa
+                            </h3>
+                            <p class="seccion__p">
+                                El gobernador bonaerense se reunió con el Presidente y repasaron la gestión en la provincia de Buenos Aires.
+                            </p>
+                            <footer class="seccion__footer">
+                                <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                                <span class="seccion__span">11 MIN DE LECTURA</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="seccion__links seccion__link2">
+                    <article class="seccion__article seccion__art2">
+                        <div class="seccion__img guzman capa"></div>
+                        <h3 class="seccion__h3">
+                            Sigue la tensión por la deuda: se cayó...
+                        </h3>
+                        <p class="seccion__p">
+                            Se iban a reunir este martes para que el ministro les informe sobre la deuda. Gerardo Morales dijo que la reunión no se hace porque “Guzmán no...
+                        </p>
+                        <footer class="seccion__footer">
+                            <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                            <span class="seccion__span">6 MIN DE LECTURA</span>
+                        </footer>
+                    </article>
+                </a>
+                <a href="#" class="seccion__links">
+                    <article class="seccion__article seccion__art3">
+                        <div class="seccion__img lewandowsky capa"></div>
+                        <h3 class="seccion__h3">
+                            Robert Lewandowski superó a Lionel Messi...
+                        </h3>
+                        <p class="seccion__p">
+                            El delantero polaco, que ya había sido distinguido por la FIFA en 2020, se sacó la espina tras haber perdido el Balón de Oro ante La Pulga.
+                        </p>
+                        <footer class="seccion__footer">
+                            <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                            <span class="seccion__span">2 MIN DE LECTURA</span>
+                        </footer>
+                    </article>
+                </a>
+            </section>
+        </section>
+
+        <section class="seccion apartados">
+            <header class="seccion__header">
+                <h2 class="seccion__title">APARTADOS</h2>
+            </header>
+            <section class="apartados__body">
+                <a href="#" class="apartados__name apartados__politica"><span class="apartados__text">Política</span></a>
+                <a href="#" class="apartados__name apartados__economia"><span class="apartados__text">Economía</span></a>
+                <a href="#" class=" apartados__name apartados__deportes"><span class="apartados__text">Deportes</span></a>
+                <a href="#" class=" apartados__name apartados__espectaculo"><span class="apartados__text">Espectáculo</span></a>
+                <a href="#" class=" apartados__name apartados__tecno"><span class="apartados__text">Tecno</span></a>
+                <a href="#" class=" apartados__name apartados__salud"><span class="apartados__text">Salud</span></a>
+                <a href="#" class=" apartados__name apartados__clima"><span class="apartados__text">Clima</span></a>
+                <a href="#" class=" apartados__name apartados__envivo">
+                    <div class="apartados__text">
+                        <img src="assets/images/dot.png" alt="Punto rojo" class="dot-live">
+                        <span>En vivo</span>
+                    </div>
+                </a>
+            </section>
+        </section>
+
+        <section class="seccion">
+            <header class="seccion__header">
+                <h2 class="seccion__title">COVID-19</h2>
+                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
+            </header>
+            <section class="seccion__body">
+                <a href="#" class="seccion__links seccion__link1">
+                    <article class="seccion__article seccion__art1 testeos capa">
+                        <div>
+                            <h3 class="seccion__h3">
+                                Se registró el número de muertos más alto de la tercera ola
+                            </h3>
+                            <p class="seccion__p">
+                                Se reportaron 191 víctimas fatales y 102.458 contagios; se eleva un poco la ocupación en terapia intensiva.
+                            </p>
+                            <footer class="seccion__footer">
+                                <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                                <span class="seccion__span">3 MIN DE LECTURA</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+                <a href="#" class="seccion__links seccion__link2">
+                    <article class="seccion__article seccion__art2">
+                        <div class="seccion__img oms capa"></div>
+                        <h3 class="seccion__h3">
+                            La OMS: “Ómicron es menos grave pero la...
+                        </h3>
+                        <p class="seccion__p">
+                            Los expertos advierten de que con ómicron “no termina la pandemia”.
+                        </p>
+                        <footer class="seccion__footer">
+                            <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                            <span class="seccion__span">5 MIN DE LECTURA</span>
+                        </footer>
+                    </article>
+                </a>
+                <a href="#" class="seccion__links">
+                    <article class="seccion__article seccion__art3">
+                        <div class="seccion__img cuarentena capa"></div>
+                        <h3 class="seccion__h3">
+                            Si soy positivo por covid tras la cuarentena...
+                        </h3>
+                        <p class="seccion__p">
+                            La cantidad de virus aumenta rápidamente los primeros días de la infección y se mantiene alta durante un período de tiempo que varía en...
+                        </p>
+                        <footer class="seccion__footer">
+                            <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                            <span class="seccion__span">3 MIN DE LECTURA</span>
+                        </footer>
+                    </article>
+                </a>
+            </section>
+            <section class="covid-19">
+                <a href="#" class="covid-19__links">
+                    <img class="covid-19__icons" src="assets/images/ciencia.png" alt="Icono Telescopio">
+                    <div>
+                        <h4>Ciencia</h4>
+                        <p>Lo que se sabe del virus</p>
+                    </div>
+                </a>
+                <a href="#" class="covid-19__links">
+                    <img class="covid-19__icons" src="assets/images/salud.png" alt="Icono Salud">
+                    <div>
+                        <h4>Salud</h4>
+                        <p>Síntomas claves y cuidados</p>
+                    </div>
+                </a>
+                <a href="#" class="covid-19__links">
+                    <img class="covid-19__icons" src="assets/images/ciudadania.png" alt="Icono Ciudadanía">
+                    <div>
+                        <h4>Ciudadanía</h4>
+                        <p>Restricciones de movimiento</p>
+                    </div>
+                </a>
+                <a href="#" class="covid-19__links">
+                    <img class="covid-19__icons" src="assets/images/economia.png" alt="Icono Economía">
+                    <div>
+                        <h4>Economía</h4>
+                        <p>Efectos adversos y medidas de contención</p>
+                    </div>
+                </a>
+            </section>
+            <footer class="covid-19__footer">
+                <p class="covid-19__scroll-text">Covid-19 en la Argentina: informaron 129.709 nuevos casos y 182 muertos en las últimas 24 horas</p>
+            </footer>
+        </section>
+
+        <section class="seccion">
+            <header class="seccion__header">
+                <h2 class="seccion__title">LO MEJOR DE LA SEMANA</h2>
+                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
+            </header>
+            <section class="historias__body">
+                <a href="#" class="historias__links">
+                    <h4 class="historias--lora">Historias en profundidad para conocer, entender y actuar</h4>
+                </a>
+                <a href="#" class="historias__links garcia-marquez">
+                    <h4 class="historias__text" >Indira, el secreto del patriarca Gabriel García Márquez</h4>
+                </a>
+                <a href="#" class="historias__links djokovic">
+                    <h4 class="historias__text" >Djokovic entra en un túnel sin salida</h4>
+                </a>
+                <a href="#" class="historias__links trump">
+                    <h4 class="historias__text" >Chomsky: “Es muy probable que Trump gane en 2024”</h4>
+                </a>
+                <a href="#" class="historias__links larson">
+                    <h4 class="historias__text" >Heidi Larson, la antropóloga que susurraba a los antivacunas</h4>
+                </a>
+                <a href="#" class="historias__links castillo">
+                    <h4 class="historias__text" >Kate de Castillo, antes y después de la caída del Chapo</h4>
+                </a>
+            </section>
+        </section>
+
+        <section class="seccion">
+            <header class="seccion__header">
+                <h2 class="seccion__title">DOLAR HOY</h2>
+                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
+            </header>
+            <section class="seccion__body">
+                <a href="#" class="seccion__links seccion__link1">
+                    <article class="seccion__article seccion__art1 dolar capa">
+                        <div>
+                            <h3 class="seccion__h3">
+                                A cuánto llegarán el dólar y la inflación este año, en medio de la incertidumbre por la deuda con el FMI
+                            </h3>
+                            <p class="seccion__p">
+                                Los pronósticos de las consultoras sobre el tipo de cambio y la suba de los precios para 2022 y 2023; cuáles son las asignaturas pendientes y los riesgos para la economía argentina
+                            </p>
+                            <footer class="seccion__footer">
+                                <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
+                                <span class="seccion__span">2 MIN DE LECTURA</span>
+                            </footer>
+                        </div>
+                    </article>
+                </a>
+                <div class="dolar-hoy__art2">
+                    <h3 class="dolar-hoy__h3">DOLAR BCO <br> NACIÓN</h3>
+                    <span class="dolar-hoy__actualizacion">19/01 - 15:10</span>
+                    <span class="dolar-hoy__price">$110.68</span>
+                </div>
+                <div class="dolar-hoy__art3">
+                    <h3 class="dolar-hoy__h3">DOLAR BLUE</h3>
+                    <span class="dolar-hoy__actualizacion">19/01 - 13:45</span>
+                    <span class="dolar-hoy__price">$211.00</span>
+                </div>
+            </section>
+        </section>
+    </main> -->
+
+    <!-- <a class="nota" href="nota.html">NOTA PARA NUCBA</a> -->
+</body>
+</html>
