@@ -7,11 +7,15 @@
     "deportes   deportes   deportes    espectaculo espectaculo"
     "tecno      tecno       salud       salud       salud"
     "clima      clima       clima       envivo      envivo";
+    padding-top: 20px;
 }
 
 .apartados__name {
     position: relative;
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .apartados__name::before {
@@ -29,89 +33,57 @@
     height: 100%;
 }
 
-.apartados__name:hover::after {
+/* .apartados__name:hover::after {
     animation-name: quitar-fondo;
     animation-duration: 1s;
-}
+} */
 
 .apartados__politica {
     grid-area: politica;
-    background: url(../assets/images/politica.jpg);
+    background: url(../images/politica.jpg);
     background-size: cover;
-}
-
-.apartados__politica::after {
-    background-color: rgba(111, 195, 223, 0.85);
 }
 
 .apartados__economia {
     grid-area: economia;
-    background: url(../assets/images/economia.jpg);
+    background: url(../images/economia.jpg);
     background-size: cover;
-}
-
-.apartados__economia::after {
-    background-color: rgba(141, 130, 196, 0.85);
 }
 
 .apartados__deportes {
     grid-area: deportes;
-    background: url(../assets/images/deportes.jpg);
+    background: url(../images/deportes.jpg);
     background-size: cover;
-}
-
-.apartados__deportes::after {
-    background-color: rgba(229, 147, 138, 0.85);
 }
 
 .apartados__espectaculo {
     grid-area: espectaculo;
-    background: url(../assets/images/espectaculo.jpg);
+    background: url(../images/espectaculo.jpg);
     background-size: cover;
-}
-
-.apartados__espectaculo::after {
-    background-color: rgba(222, 181, 142, 0.85);
 }
 
 .apartados__tecno {
     grid-area: tecno;
-    background: url(../assets/images/tecno.jpg);
+    background: url(../images/tecno.jpg);
     background-size: cover;
-}
-
-.apartados__tecno::after {
-    background-color: rgba(133, 156, 211, 0.85);
 }
 
 .apartados__salud {
     grid-area: salud;
-    background: url(../assets/images/salud.jpg);
+    background: url(../images/salud.jpg);
     background-size: cover;
-}
-
-.apartados__salud::after {
-    background-color: rgba(122, 174, 150, 0.85);
 }
 
 .apartados__clima {
     grid-area: clima;
-    background: url(../assets/images/clima.jpg);
+    background: url(../images/clima.jpg);
     background-size: cover;
-}
-
-.apartados__clima::after {
-    background-color: rgba(255, 221, 171, 0.85);
 }
 
 .apartados__envivo {
     grid-area: envivo;
-    background: url(../assets/images/en-vivo.jpg);
+    background: url(../images/en-vivo.jpg);
     background-size: cover;
-}
-
-.apartados__envivo::after {
-    background-color: rgb(255, 145, 204, 0.85);
 }
 
 .apartados__envivo .apartados__text {
@@ -121,16 +93,11 @@
     gap: 10px;
 }
 
-.apartados__name {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .apartados__text {
-    padding: 10px 20px;
-    font-size: 2em;
+    z-index: 1;
+    padding: 5px 10px;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-    z-index: 1;
+    text-shadow: 0 4px 10px #000000;
+    box-shadow: 0 4px 10px #000000;
 }
