@@ -18,19 +18,12 @@
     height: 100px;
 }
 
-.apartados__name::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(36, 41, 67, 0.25);
-}
-
 .apartados__name::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
+    background-color: rgba(36, 41, 67, 0.25);
 }
 
 /* .apartados__name:hover::after {
