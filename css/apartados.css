@@ -26,56 +26,56 @@
     background-color: rgba(36, 41, 67, 0.25);
 }
 
-/* .apartados__name:hover::after {
+.apartados__name:hover::after {
     animation-name: quitar-fondo;
     animation-duration: 1s;
-} */
+}
 
 .apartados__politica {
     grid-area: politica;
-    background: url(../images/politica.jpg);
+    background: url(../images/apartado-politica.jpg);
     background-size: cover;
 }
 
 .apartados__economia {
     grid-area: economia;
-    background: url(../images/economia.jpg);
+    background: url(../images/apartado-economia.jpg);
     background-size: cover;
 }
 
 .apartados__deportes {
     grid-area: deportes;
-    background: url(../images/deportes.jpg);
+    background: url(../images/apartado-deportes.jpg);
     background-size: cover;
 }
 
 .apartados__espectaculo {
     grid-area: espectaculo;
-    background: url(../images/espectaculo.jpg);
+    background: url(../images/apartado-espectaculo.jpg);
     background-size: cover;
 }
 
 .apartados__tecno {
     grid-area: tecno;
-    background: url(../images/tecno.jpg);
+    background: url(../images/apartado-tecno.jpg);
     background-size: cover;
 }
 
 .apartados__salud {
     grid-area: salud;
-    background: url(../images/salud.jpg);
+    background: url(../images/apartado-salud.jpg);
     background-size: cover;
 }
 
 .apartados__clima {
     grid-area: clima;
-    background: url(../images/clima.jpg);
+    background: url(../images/apartado-clima.jpg);
     background-size: cover;
 }
 
 .apartados__envivo {
     grid-area: envivo;
-    background: url(../images/en-vivo.jpg);
+    background: url(../images/apartado-envivo.jpg);
     background-size: cover;
 }
 
