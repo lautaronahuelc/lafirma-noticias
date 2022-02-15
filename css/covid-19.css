@@ -1,34 +1,43 @@
 .covid-19 {
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 20px 10px;
     background-color: rgba(229, 229, 229, 0.6);
 }
 
-.covid-19__links {
+.covid-19__link {
     display: flex;
     align-items: center;
+    width: 100%;
     gap: 20px;
-    flex-basis: 25%;
 }
 
-.covid-19 div {
-    display: block;
+.covid-19__link h4 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-style: italic;
 }
 
-.covid-19__icons {
+/* ACA ME QUEDE *************************************/
+
+.covid-19__link p {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.covid-19 > div {
+
+}
+
+.covid-19__icon {
     width: 80px;
     height: 80px;
     border-radius: 100%;
 }
 
-.covid-19 h4 {
-    margin: 0;
-    font-family: 'Poppins Bold';
-    font-size: 1.35em;
-}
-
-.covid-19__footer {
+/*
+covid-19__footer {
     padding: 5px;
     font-family: 'Lato Bold';
     font-size: 1.5em;
@@ -44,4 +53,4 @@
     animation-duration: 20s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-}
+} */
