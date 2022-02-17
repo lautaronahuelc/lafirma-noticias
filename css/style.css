@@ -25,6 +25,10 @@ hr {
     border-bottom: 1px solid rgb(220, 220, 220);
 }
 
+main {
+    overflow: hidden; /* Para que el scroll-text se esconda */
+}
+
 .img {
     filter: saturate(40%);
     -webkit-filter: saturate(40%);
