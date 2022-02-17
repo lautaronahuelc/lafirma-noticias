@@ -1,0 +1,70 @@
+.mejor-semana { 
+    padding: 5px;
+}
+
+.mejor-semana__subtitle {
+    font-weight: normal;
+    color: var(--color-gray);
+}
+
+.mejor-semana div {
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.mejor-semana__link {
+    max-width: 215px; /* Para que cuando agrando el viewport no se agrande */
+    width: 70%;
+    padding: 5px;
+}
+
+.mejor-semana__link:nth-child(2),
+.mejor-semana__link:last-child {
+    display: none;
+}
+
+.mejor-semana__link article:first-child {
+    background: url(../images/mejorsemana-gabriel-garcia-marquez.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.mejor-semana article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5px;
+    height: 250px;
+}
+
+.mejor-semana h4 {
+    margin: 0;
+    width: 70%;
+    font-family: 'Archivo', sans-serif;
+    color: #FFFFFF;
+    text-shadow: 0 4px 10px #000000;
+    text-align: center;
+}
+
+
+/* .mejor-semana__subtitle {
+    background-color: #DAE8FC;
+}
+
+.mejor-semana div {
+    background-color: #DAE8FC;
+}
+
+.mejor-semana__link {
+    background-color: #F5F5F5;
+}
+
+.mejor-semana article {
+    background-color: #FFE6CC;
+}
+
+.mejor-semana h4 {
+    background-color: #F8CECC;
+} */
