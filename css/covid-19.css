@@ -41,6 +41,7 @@
 .covid-19__footer {
     margin-left: -20px; /* Para quitar el margin-left de 20px del section */
     padding: 7px 0;
+    min-width: 110%; /* Un poquito más de 100% porque lo corrí -20px para la izquierda */
     width: max-content;
     font-family: 'Lora';
     font-weight: 600;
