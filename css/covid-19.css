@@ -5,7 +5,8 @@
     margin-right: -20px;
     gap: 20px;
     padding: 20px 20px;
-    background-color: rgba(229, 229, 229, 0.6);
+    background-color: rgba(229, 229, 229, 0.4);
+    background-color: #e8e8e8;
 }
 
 .covid-19__link {

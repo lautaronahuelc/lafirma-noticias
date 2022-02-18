@@ -1,0 +1,57 @@
+.juegos { 
+    padding: 5px;
+}
+
+.juegos__subtitle {
+    font-weight: normal;
+    color: var(--color-gray);
+}
+
+.juegos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 5px;
+}
+
+.juegos article {
+    align-items: flex-start;
+    text-align: center;
+}
+
+.juegos__link {
+    display: flex;
+    padding: 5px;
+}
+
+.juegos figure {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+}
+
+.juegos img {
+    width: 200px;
+}
+
+
+/* .juegos__subtitle {
+    background-color: #DAE8FC;
+}
+
+.juegos div {
+    background-color: #DAE8FC;
+}
+
+.juegos__link {
+    background-color: #F5F5F5;
+}
+
+.juegos article {
+    background-color: #FFE6CC;
+}
+
+.juegos h4 {
+    background-color: #F8CECC;
+} */

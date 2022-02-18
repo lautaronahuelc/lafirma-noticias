@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:ital,wght@0,600;1,400;1,600&family=Poppins:wght@400;700&family=Source+Serif+Pro&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;500;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -20,12 +20,12 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/section.css">
-    <!-- <link rel="stylesheet" href="css/nav.css"> -->
     <link rel="stylesheet" href="css/apartados.css">
     <link rel="stylesheet" href="css/covid-19.css">
-    <link rel="stylesheet" href="css/lo-mejor-de-la-semana.css">
-    <!-- <link rel="stylesheet" href="css/historias.css"> -->
-    <!-- <link rel="stylesheet" href="css/dolar-hoy.css"> -->
+    <link rel="stylesheet" href="css/destacados.css">
+    <link rel="stylesheet" href="css/dolar-hoy.css">
+    <link rel="stylesheet" href="css/juegos.css">
+    <!-- <link rel="stylesheet" href="css/nav.css"> -->
 
     <title>LA FIRMA | Nuestro compromiso con la gente</title>
 </head>
@@ -58,6 +58,7 @@
     </section>
 
     <main>
+        <!-- Sección Últimas noticias -->
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Últimas noticias</h2>
@@ -120,6 +121,7 @@
             </section>
         </section>
 
+        <!-- Sección Apartados -->
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Apartados</h2>
@@ -155,6 +157,7 @@
             </section>
         </section>
 
+        <!-- Sección Covid-19 -->
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Covid-19</h2>
@@ -246,29 +249,110 @@
             </footer>
         </section>
 
+        <!-- Sección Destacados -->
         <section class="section">
             <header class="section__header">
-                <h2 class="section__name">Lo mejor de la semana</h2>
+                <h2 class="section__name">Destacados</h2>
                 <a href="#" class="section__ver-mas">Ver más</a>
             </header>
-            <section class="section__body mejor-semana">
-                <h3 class="mejor-semana__subtitle">Historias en profundidad para conocer, entender y actuar</h3>
+            <section class="section__body destacados">
+                <h3 class="destacados__subtitle">Historias en profundidad para conocer, entender y actuar</h3>
                 <div>
-                    <a href="#" class="mejor-semana__link">
-                        <article>
+                    <a href="#" class="destacados__link">
+                        <article class="destacados__ggm">
                             <h4>Indira, el secreto del patriarca Gabriel García Márquez</h4>
                         </article>
                     </a>
-                    <a href="#" class="mejor-semana__link">
-                        <article>
+                    <a href="#" class="destacados__link">
+                        <article class="destacados__djokovic">
                             <h4>Djokovic entra en un túnel sin salida</h4>
                         </article>
                     </a>
-                    <a href="#" class="mejor-semana__link">
-                        <article>
+                    <a href="#" class="destacados__link">
+                        <article class="destacados__trump">
                             <h4>Chomsky: “Es muy probable que Trump gane en 2024”</h4>
                         </article>
                     </a>
+                </div>
+            </section>
+        </section>
+
+        <!-- Sección Dolar hoy -->
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__name">Dolar hoy</h2>
+                <a href="#" class="section__ver-mas">Ver más</a>
+            </header>
+            <section class="section__body">
+                <a href="#" class="section__link">
+                    <article class="section__article">
+                        <img src="images/dolar.jpg" alt="Imagen Billetes Dolar" class="img section__img--portada">
+                        <div class="section__flex">
+                            <h3 class="section__title">
+                                A cuánto llegarán el dólar y la inflación este año, en medio de la incertidumbre por la deuda con el FMI
+                            </h3>
+                            <p class="section__resume">
+                                Los pronósticos de las consultoras sobre el tipo de cambio y la suba de los precios para 2022 y 2023; cuáles son las asignaturas pendientes y los riesgos para la economía argentina
+                            </p>
+                            <footer class="section__footer">
+                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                <small class="section__lectura">9 min de lectura</small>
+                            </footer>
+                        </div>
+                    </article>
+                    <hr>
+                    <article class="dolar-hoy">
+                        <div>
+                            <h3>Dolar Banco Nación</h3>
+                            <p>19/01 - 15:10</p>
+                            <span>$110.68</span>
+                        </div>
+                        <div>
+                            <h3>Dolar Blue</h3>
+                            <p>19/01 - 13:45</p>
+                            <span>$211.00</span>
+                        </div>
+                    </article>
+                </a>
+                <hr>
+            </section>
+        </section>
+
+        <!-- Sección Crucigramas y Juegos -->
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__name">Crucigramas</h2>
+                <a href="#" class="section__ver-mas">Ver más</a>
+            </header>
+            <section class="section__body juegos">
+                <h3 class="juegos__subtitle">
+                    Los clásicos juegos de los periódicos, ahora en formato digital
+                </h3>
+                <div>
+                    <article class="juegos__crucigramas">
+                        <a href="#" class="juegos__link">
+                            <figure>
+                                <img src="images/juegos-crucigrama.png" alt="Logo Crucigrama">
+                                <figcaption>Crucigrama</figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="juegos__sodoku">
+                        <a href="#" class="juegos__link">
+                            <figure>
+                                <img src="images/juegos-sodoku.png" alt="Logo Sodoku">
+                                <figcaption>Sodoku</figcaption>
+                            </figure>
+                        </a>
+                    </article>
+                    <article class="juegos__sopa">
+                        <a href="#" class="juegos__link">
+                            <figure>
+                                <img src="images/juegos-sopa.png" alt="Logo Sopa">
+                                <figcaption>Sopa de Letra</figcaption>    
+                            </figure>
+                        </a>
+                    </article>
                 </div>
             </section>
         </section>
@@ -285,70 +369,6 @@
             <a href="#" class="nav__link"><li class="nav__item">Contacto</li></a>
         </ul>
     </nav> -->
-
-    <!-- <main>
-        <section class="seccion">
-            <header class="seccion__header">
-                <h2 class="seccion__title">LO MEJOR DE LA SEMANA</h2>
-                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
-            </header>
-            <section class="historias__body">
-                <a href="#" class="historias__links">
-                    <h4 class="historias--lora">Historias en profundidad para conocer, entender y actuar</h4>
-                </a>
-                <a href="#" class="historias__links garcia-marquez">
-                    <h4 class="historias__text" >Indira, el secreto del patriarca Gabriel García Márquez</h4>
-                </a>
-                <a href="#" class="historias__links djokovic">
-                    <h4 class="historias__text" >Djokovic entra en un túnel sin salida</h4>
-                </a>
-                <a href="#" class="historias__links trump">
-                    <h4 class="historias__text" >Chomsky: “Es muy probable que Trump gane en 2024”</h4>
-                </a>
-                <a href="#" class="historias__links larson">
-                    <h4 class="historias__text" >Heidi Larson, la antropóloga que susurraba a los antivacunas</h4>
-                </a>
-                <a href="#" class="historias__links castillo">
-                    <h4 class="historias__text" >Kate de Castillo, antes y después de la caída del Chapo</h4>
-                </a>
-            </section>
-        </section>
-
-        <section class="seccion">
-            <header class="seccion__header">
-                <h2 class="seccion__title">DOLAR HOY</h2>
-                <a href="#" class="seccion__ver-mas">+ VER MÁS</a>
-            </header>
-            <section class="seccion__body">
-                <a href="#" class="seccion__links seccion__link1">
-                    <article class="seccion__article seccion__art1 dolar capa">
-                        <div>
-                            <h3 class="seccion__h3">
-                                A cuánto llegarán el dólar y la inflación este año, en medio de la incertidumbre por la deuda con el FMI
-                            </h3>
-                            <p class="seccion__p">
-                                Los pronósticos de las consultoras sobre el tipo de cambio y la suba de los precios para 2022 y 2023; cuáles son las asignaturas pendientes y los riesgos para la economía argentina
-                            </p>
-                            <footer class="seccion__footer">
-                                <img class="seccion__ico" src="assets/images/lectura.png" alt="Icono Lectura">
-                                <span class="seccion__span">2 MIN DE LECTURA</span>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-                <div class="dolar-hoy__art2">
-                    <h3 class="dolar-hoy__h3">DOLAR BCO <br> NACIÓN</h3>
-                    <span class="dolar-hoy__actualizacion">19/01 - 15:10</span>
-                    <span class="dolar-hoy__price">$110.68</span>
-                </div>
-                <div class="dolar-hoy__art3">
-                    <h3 class="dolar-hoy__h3">DOLAR BLUE</h3>
-                    <span class="dolar-hoy__actualizacion">19/01 - 13:45</span>
-                    <span class="dolar-hoy__price">$211.00</span>
-                </div>
-            </section>
-        </section>
-    </main> -->
 
     <!-- <a class="nota" href="nota.html">NOTA PARA NUCBA</a> -->
 </body>

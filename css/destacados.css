@@ -1,0 +1,80 @@
+.destacados { 
+    padding: 5px;
+}
+
+.destacados__subtitle {
+    font-weight: normal;
+    color: var(--color-gray);
+}
+
+.destacados div {
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    /* justify-content: center; */
+}
+
+.destacados__link {
+    max-width: 215px; /* Para que cuando agrando el viewport no se agrande */
+    width: 70%;
+    padding: 5px;
+}
+
+.destacados__ggm {
+    background: url(../images/destacados-gabriel-garcia-marquez.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.destacados__djokovic {
+    background: url(../images/destacados-djokovic.jpg);
+    background-size: cover;
+    background-position: -220px;
+}
+
+.destacados__trump {
+    background: url(../images/destacados-trump.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.destacados article {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px 5px;
+    height: 300px;
+}
+
+.destacados h4 {
+    margin: 0;
+    width: 70%;
+    font-family: 'Archivo', sans-serif;
+    font-size: 1.1em;
+    color: #FFFFFF;
+    text-shadow: 0 4px 10px #000000;
+    text-align: center;
+}
+
+/* .destacados__subtitle {
+    background-color: #DAE8FC;
+}
+
+.destacados div {
+    background-color: #DAE8FC;
+}
+
+.destacados__link {
+    background-color: #F5F5F5;
+}
+
+.destacados article {
+    background-color: #FFE6CC;
+}
+
+.destacados h4 {
+    background-color: #F8CECC;
+} */

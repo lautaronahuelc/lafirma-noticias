@@ -1,40 +1,27 @@
-.dolar-hoy__art2,
-.dolar-hoy__art3 {
+.dolar-hoy {
     display: flex;
     flex-direction: column;
-    height: 238px;
+    align-items: center;
+    text-align: center;
+    /* background-color: aquamarine; */
 }
 
-.dolar-hoy__art2 > *,
-.dolar-hoy__art3 > *{
-    margin: 5px;
-    background-color: #F5F5F5;
-}
-
-.dolar-hoy__h3 {
-    font-family: 'Poppins Regular';
-    font-size: 2em;
+.dolar-hoy h3 {
+    margin-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     color: #70A38B;
+    text-transform: uppercase;
 }
 
-.dolar-hoy__price {
-    font-family: 'NotoSerifDisplay-Regular';
-    font-size: 4.5em;
+.dolar-hoy p {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
 }
 
-.dolar-hoy__art3 {
-    justify-content: flex-end;
-    padding-right: 100px;
-    text-align: end;
-}
-
-.dolar-hoy__art2 {
-    padding-left: 100px;
-    border-bottom: 3px solid #767676;
-}
-
-.dolar {
-    background: url(../assets/images/dolar.jpg);
-    background-size: cover; 
-    background-position: center;
+.dolar-hoy span {
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 500;
+    font-size: 2em;
 }
