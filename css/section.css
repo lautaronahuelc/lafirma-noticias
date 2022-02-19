@@ -5,7 +5,7 @@
 .section__header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     border-bottom: 3px solid var(--color-black);
 }
 
@@ -20,6 +20,10 @@
     font-size: 0.6em;
     color: var(--main-color);
     text-transform: uppercase;
+}
+
+.section__ver-mas img {
+    width: 15px;
 }
 
 /* .section__body {} */

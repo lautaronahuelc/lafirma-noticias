@@ -20,19 +20,17 @@
 .contacto__label {
     display: block; /* Para que el label no pise los demás elementos */
     padding: 5px 0;
+    margin-bottom: 10px;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
     color: var(--color-black);
     text-transform: uppercase;
 }
 
 .contacto__input,
 .contacto__msj {
-    padding: 0;
     width: 100%;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.8em;
     color: #767676;
     border: none;
     border-bottom: 2px solid #e0e0e0;
@@ -49,7 +47,6 @@ input[type="submit"],
 input[type="reset"] {
     padding: 10px 30px;
     font-family: 'Poppins', sans-serif;
-    font-size: 0.8em;
     color: var(--color-black); /* Especifico porque el Iphone me toma otro color */
     text-transform: uppercase;
     border: none;
