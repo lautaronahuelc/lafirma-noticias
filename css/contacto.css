@@ -1,0 +1,72 @@
+.contacto {
+    margin-top: 15px;
+    padding: 5px;
+    background-color: rgba(229, 229, 229, 0.3);
+}
+
+.contacto__flex {
+    display: flex;
+}
+
+.contacto__cont {
+    padding: 5px;
+}
+
+.contacto__label {
+    display: block; /* Para que el label no pise los demás elementos */
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+.contacto__input,
+.contacto__msj {
+    width: 100%;
+    font-family: 'Archivo', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: #767676;
+    border: none;
+    border-bottom: 1px solid #767676;
+    background: transparent;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    border: none;
+    background-color: rgba(196, 196, 196, 0.4);
+}
+
+.contacto__input:focus,
+.contacto__msj:focus {
+    outline: none;
+}
+
+
+
+/* 
+.contacto__flex {
+    padding: 5px;
+    background-color: #F5F5F5;
+}
+
+.contacto__cont {
+    background-color: #FFE6CC;
+}
+
+.contacto__label {
+    background-color: #F8CECC;
+}
+
+.contacto__input {
+    background-attachment: #F8CECC;
+} 
+*/
+

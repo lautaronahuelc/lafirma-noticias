@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@400;500;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@500;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/destacados.css">
     <link rel="stylesheet" href="css/dolar-hoy.css">
     <link rel="stylesheet" href="css/juegos.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <!-- <link rel="stylesheet" href="css/nav.css"> -->
 
     <title>LA FIRMA | Nuestro compromiso con la gente</title>
@@ -56,6 +57,20 @@
             <input type="search" placeholder="Buscar..." class="hero__input">
         </div>
     </section>
+
+    <!-- 
+    <nav class="nav">
+        <ul class="nav__menu">
+            <a href="#" class="nav__link"><li class="nav__item">Últimas noticias</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Apartados</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Covid-19</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Lo mejor de la semana</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Dolar hoy</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Crucigramas</li></a>
+            <a href="#" class="nav__link"><li class="nav__item">Contacto</li></a>
+        </ul>
+    </nav> 
+    -->
 
     <main>
         <!-- Sección Últimas noticias -->
@@ -356,20 +371,81 @@
                 </div>
             </section>
         </section>
+
+        <!-- Sección Contacto -->
+        <section class="section">
+            <header class="section__header">
+                <h2 class="section__name">Contacto</h2>
+                <a href="#" class="section__ver-mas">Ver más</a>
+            </header>
+            <section class="section__body">
+                <form action="#" class="contacto">
+                    <div class="contacto__flex">
+                        <div class="contacto__cont">
+                            <label for="name" class="contacto__label">Nombre</label>
+                            <input type="text" class="contacto__input" id="name" name="name" pattern="[A-zñÑáéíóúÁÉÍÓÚ\s]{2,30}" required>
+                        </div>
+                        <div class="contacto__cont">
+                            <label for="email" class="contacto__label">Correo</label>
+                            <input type="email" class="contacto__input" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="contacto__cont">
+                        <label for="msj" class="contacto__label">Mensaje</label>
+                        <textarea  class="contacto__msj" name="msj" id="msj" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Vaciar">
+                    </div>
+                </form>
+
+                <hr>
+
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-home.png" alt="Icon Home">
+                                <address>
+                                    La Firma Inc <br>
+                                    Bulnes 1789 (1425) <br>
+                                    CABA, Argentina
+                                </address>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-phone.png" alt="Icon Phone">
+                                0800-666-1000
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-email.png" alt="Icon E-mail">
+                                contacto@lafirma.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-twitter.png" alt="Icon Twitter">
+                                /lafirma
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-facebook.png" alt="Icon Facebook">
+                                /lafirma
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icon-instagram.png" alt="Icon Instagram">
+                                /lafirma
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
     </main>
 
-    <!-- <nav class="nav">
-        <ul class="nav__menu">
-            <a href="#" class="nav__link"><li class="nav__item">Últimas noticias</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Apartados</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Covid-19</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Lo mejor de la semana</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Dolar hoy</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Crucigramas</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Contacto</li></a>
-        </ul>
-    </nav> -->
-
-    <!-- <a class="nota" href="nota.html">NOTA PARA NUCBA</a> -->
 </body>
 </html>
