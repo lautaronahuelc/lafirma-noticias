@@ -76,15 +76,14 @@ input[type="reset"] {
 .contacto__link {
     display: flex;
     align-items: center;
-    gap:10px;
+    gap:20px;
     font-family: 'Lora', serif;
     font-weight: 400;
     font-style: italic;
-    font-size: 0.8em;
 }
 
 .contacto__icon {
-    width: 20px;
+    width: 35px;
 }
 
 
