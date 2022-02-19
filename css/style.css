@@ -6,6 +6,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -41,4 +42,15 @@ main {
     animation-name: desaparecer;
     animation-duration: 0.5s;
     animation-iteration-count: infinite;
+}
+
+.up-button {
+    position: fixed;
+    display: block;
+    right: 15px;
+    bottom: 20px;
+}
+
+.up-button img {
+    width: 45px;
 }
