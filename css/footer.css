@@ -1,0 +1,33 @@
+.footer {
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #FFFFFF;
+    background-color: var(--main-color);
+    overflow: hidden; /* Para que el margen de <p> no desborde */
+}
+
+.footer__img {
+    width: 20px;
+}
+
+.footer__edicion {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.footer__flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px
+}
+
+.footer__flex a {
+    font-weight: 300;
+    font-size: 0.7em;
+}
+
+.footer__autor {
+    font-size: 0.7em;
+    font-weight: 900;
+}

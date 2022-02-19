@@ -8,7 +8,8 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@500;700&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lato:wght@300;400;900&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@500;700&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
+
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
@@ -26,6 +27,7 @@
     <link rel="stylesheet" href="css/dolar-hoy.css">
     <link rel="stylesheet" href="css/juegos.css">
     <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
     <!-- <link rel="stylesheet" href="css/nav.css"> -->
 
     <title>LA FIRMA | Nuestro compromiso con la gente</title>
@@ -379,6 +381,7 @@
                 <a href="#" class="section__ver-mas">Ver más</a>
             </header>
             <section class="section__body">
+                <!-- Formulario de contacto -->
                 <form action="#" class="contacto">
                     <div class="contacto__flex">
                         <div class="contacto__cont">
@@ -400,11 +403,12 @@
 
                 <hr>
 
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-home.png" alt="Icon Home">
+                <!-- Redes Sociales en "Contacto" -->
+                <nav class="contacto__nav">
+                    <ul class="contacto__ul">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-home.png" alt="Icon Home">
                                 <address>
                                     La Firma Inc <br>
                                     Bulnes 1789 (1425) <br>
@@ -412,33 +416,33 @@
                                 </address>
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-phone.png" alt="Icon Phone">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-phone.png" alt="Icon Phone">
                                 0800-666-1000
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-email.png" alt="Icon E-mail">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-email.png" alt="Icon E-mail">
                                 contacto@lafirma.com
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-twitter.png" alt="Icon Twitter">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-twitter.png" alt="Icon Twitter">
                                 /lafirma
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-facebook.png" alt="Icon Facebook">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-facebook.png" alt="Icon Facebook">
                                 /lafirma
                             </a>
                         </li>
-                        <li>
-                            <a href="#">
-                                <img src="images/icon-instagram.png" alt="Icon Instagram">
+                        <li class="contacto__li">
+                            <a href="#" class="contacto__link">
+                                <img class="contacto__icon" src="images/icon-instagram.png" alt="Icon Instagram">
                                 /lafirma
                             </a>
                         </li>
@@ -447,5 +451,34 @@
             </section>
     </main>
 
+    <footer class="footer">
+        <p class="footer__edicion">© Ediciones La Firma</p>
+        <div class="footer__flex">
+            <a href="#">
+                <img class="footer__img" src="images/icon-facebook-light.png" alt="Icon Facebook">
+            </a>
+            <a href="#">
+                <img class="footer__img" src="images/icon-twitter-light.png" alt="Icon Twitter">
+            </a>
+            <a href="#">
+                <img class="footer__img" src="images/icon-youtube-light.png" alt="Icon Youtube">
+            </a>
+            <a href="#">
+                <img class="footer__img" src="images/icon-instagram-light.png" alt="Icon Instagram">
+            </a>
+        </div>
+        <div>
+            <p class="footer__flex">
+                <a href="#">Contacto</a>
+                <a href="#">Venta de contenido</a>
+                <a href="#">Aviso legal</a>
+                <a href="#">Política cookies</a>
+                <a href="#">Política privacidad</a>
+                <a href="#">Suscripciones LA FIRMA</a>
+                <a href="#">RSS</a>
+            </p>
+        </div>
+        <p class="footer__autor">Creado por LNC.dev</p>
+    </footer>
 </body>
 </html>
