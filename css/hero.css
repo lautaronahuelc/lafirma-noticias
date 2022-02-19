@@ -11,7 +11,8 @@
 .hero__flex:last-child {
     flex-direction: column;
     align-items: center;
-    padding-top: 50px; 
+    padding-top: 50px;
+    gap: 30px; 
 }
 
 .hero__calendar {
@@ -34,7 +35,7 @@
 }
 
 h1 {
-    margin: 5px;
+    margin: 0;
     font-family: 'DM Serif Display', serif;
     font-size: 2.9em;
     text-transform: uppercase;
@@ -45,23 +46,33 @@ h1 {
     text-transform: uppercase;
 }
 
+.hero__form {
+    display: flex;
+    align-items: center;
+}
+
 .hero__input {
-    margin-top: 5px;
-    width: 205px;
+    padding: 6px;
+    width: 180px;
+    height: 26px;
     font-family: 'Poppins', sans-serif;
+    font-weight: 500;
     font-size: 0.8em;
     color: var(--color-gray); 
     border: none;
-    border-bottom: 1px solid var(--color-gray);
+    border: 1px solid var(--color-gray);
     background: transparent; /* Especifico sino el Iphone toma otro color */
 }
 
 .hero__input:focus {
     outline: none;
     color: initial;
-    border-bottom: 2px solid var(--main-color);
+    border: 2px solid var(--main-color);
 }
 
+input[type="image"] {
+    width: 26px;
+}
 
 
 /* .hero {

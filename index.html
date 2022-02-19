@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lato:wght@300;400;900&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@500;700&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;1,600&family=Cinzel:wght@700&family=DM+Serif+Display&family=Lato:wght@300;400;900&family=Lora:ital,wght@0,600;1,400;1,600&family=Noto+Serif+Display:wght@500&family=Poppins:wght@300;500;700&family=Source+Serif+Pro:ital@0;1&display=swap" rel="stylesheet">
 
 
     <!-- Favicon -->
@@ -54,9 +54,14 @@
         </div>
         <div class="hero__flex">
             <img src="images/logo.png" alt="Imagen Logo" class="hero__logo">
-            <h1>La Firma</h1>
-            <span class="hero__slogan">Nuestro compromiso con la gente</span>
-            <input type="search" placeholder="Buscar..." class="hero__input">
+            <div>
+                <h1>La Firma</h1>
+                <span class="hero__slogan">Nuestro compromiso con la gente</span>
+            </div>
+            <form class="hero__form">
+                <input type="search" placeholder="Buscar..." class="hero__input">
+                <input type="image" src="images/lupa.png">
+            </form>
         </div>
     </section>
 
@@ -146,28 +151,28 @@
                 <h2 class="section__name">Apartados</h2>
             </header>
             <section class="apartados__body">
-                <a href="#" class="apartados__name apartados__politica">
+                <a href="#" class="apartados__name">
                     <span class="apartados__text">Política</span>
                 </a>
-                <a href="#" class="apartados__name apartados__economia">
+                <a href="#" class="apartados__name">
                     <span class="apartados__text">Economía</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__deportes">
+                <a href="#" class=" apartados__name">
                     <span class="apartados__text">Deportes</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__espectaculo">
+                <a href="#" class=" apartados__name">
                     <span class="apartados__text">Espectáculo</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__tecno">
+                <a href="#" class=" apartados__name">
                     <span class="apartados__text">Tecno</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__salud">
+                <a href="#" class=" apartados__name">
                     <span class="apartados__text">Salud</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__clima">
+                <a href="#" class=" apartados__name">
                     <span class="apartados__text">Clima</span>
                 </a>
-                <a href="#" class=" apartados__name apartados__envivo">
+                <a href="#" class=" apartados__name">
                     <div class="apartados__text">
                         <img src="images/live-dot.png" alt="Punto rojo titilante" class="live-dot">
                         <span>En vivo</span>
@@ -360,7 +365,7 @@
                         <a href="#" class="juegos__link">
                             <figure>
                                 <img src="images/juegos-crucigrama.png" alt="Logo Crucigrama">
-                                <figcaption>Crucigrama</figcaption>
+                                <figcaption class="juegos__figcaption">Crucigrama</figcaption>
                             </figure>
                         </a>
                     </article>
@@ -368,7 +373,7 @@
                         <a href="#" class="juegos__link">
                             <figure>
                                 <img src="images/juegos-sodoku.png" alt="Logo Sodoku">
-                                <figcaption>Sodoku</figcaption>
+                                <figcaption class="juegos__figcaption">Sodoku</figcaption>
                             </figure>
                         </a>
                     </article>
@@ -376,7 +381,7 @@
                         <a href="#" class="juegos__link">
                             <figure>
                                 <img src="images/juegos-sopa.png" alt="Logo Sopa">
-                                <figcaption>Sopa de Letra</figcaption>    
+                                <figcaption class="juegos__figcaption">Sopa de Letra</figcaption>    
                             </figure>
                         </a>
                     </article>
@@ -392,19 +397,19 @@
             <section class="section__body">
                 <!-- Formulario de contacto -->
                 <form action="#" class="contacto">
-                    <div class="contacto__flex">
-                        <div class="contacto__cont">
-                            <label for="name" class="contacto__label">Nombre</label>
-                            <input type="text" class="contacto__input" id="name" name="name" pattern="[A-zñÑáéíóúÁÉÍÓÚ\s]{2,30}" required>
-                        </div>
-                        <div class="contacto__cont">
-                            <label for="email" class="contacto__label">Correo</label>
-                            <input type="email" class="contacto__input" id="email" name="email" required>
-                        </div>
+                    <div>
+                        <label for="name" class="contacto__label">Nombre</label>
+                        <input type="text" class="contacto__input" id="name" name="name" pattern="[A-zñÑáéíóúÁÉÍÓÚ\s]{2,30}" required>
                     </div>
-                    <div class="contacto__cont">
+                    <div>
+                        <label for="email" class="contacto__label">Correo</label>
+                        <input type="email" class="contacto__input" id="email" name="email" required>
+                    </div>
+                    <div>
                         <label for="msj" class="contacto__label">Mensaje</label>
                         <textarea  class="contacto__msj" name="msj" id="msj" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
                         <input type="submit" value="Enviar">
                         <input type="reset" value="Vaciar">
                     </div>

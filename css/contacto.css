@@ -1,20 +1,12 @@
 .contacto {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
     margin: 30px 0;
-    padding: 5px;
+    padding: 25px;
     background-color: rgba(229, 229, 229, 0.3);
-}
-
-.contacto__flex {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.contacto__cont {
-    padding: 5px;
+    border: 1px solid var(--color-black);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
 }
 
 .contacto__label {
@@ -29,8 +21,10 @@
 
 .contacto__input,
 .contacto__msj {
+    padding: 10px 5px;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     color: #767676;
     border: none;
     border-bottom: 2px solid #e0e0e0;
@@ -39,12 +33,19 @@
 
 .contacto__input:focus,
 .contacto__msj:focus {
+    font-weight: 500;
     outline: none;
     border-bottom: 2px solid var(--main-color);
 }
 
+.contacto div:last-child {
+    display: flex;
+    gap: 10px;
+}
+
 input[type="submit"],
 input[type="reset"] {
+    flex-basis: 50%;
     padding: 10px 30px;
     font-family: 'Poppins', sans-serif;
     color: var(--color-black); /* Especifico porque el Iphone me toma otro color */
@@ -61,7 +62,7 @@ input[type="reset"] {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     list-style: none;
 }
@@ -73,7 +74,7 @@ input[type="reset"] {
 .contacto__link {
     display: flex;
     align-items: center;
-    gap:20px;
+    gap: 20px;
     font-family: 'Lora', serif;
     font-weight: 400;
     font-style: italic;

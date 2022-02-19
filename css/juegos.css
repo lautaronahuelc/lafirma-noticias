@@ -25,6 +25,10 @@
     padding: 5px;
 }
 
+.juegos__link:hover .juegos__figcaption {
+    color: var(--main-color);
+}
+
 .juegos figure {
     margin: 0;
     font-family: 'Poppins', sans-serif;

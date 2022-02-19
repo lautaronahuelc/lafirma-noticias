@@ -1,4 +1,4 @@
-.apartados__body {
+/* .apartados__body {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -8,30 +8,44 @@
     "tecno      tecno       salud       salud       salud"
     "clima      clima       clima       envivo      envivo";
     padding-top: 20px;
+} */
+
+.apartados__body {
+    margin: 20px 17%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000000; */
 }
 
 .apartados__name {
-    position: relative;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 60px;
+    border-bottom: 2px solid #dfdfdf;
+    letter-spacing: 2px;
 }
 
-.apartados__name::after {
+.apartados__name:hover {
+    border-bottom: 2px solid var(--main-color);
+    color: var(--main-color);
+}
+
+/* .apartados__name::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(36, 41, 67, 0.25);
-}
+} */
 
-.apartados__name:hover::after {
+/* .apartados__name:hover::after {
     animation-name: quitar-fondo;
     animation-duration: 1s;
-}
+} */
 
-.apartados__politica {
+/* .apartados__politica {
     grid-area: politica;
     background: url(../images/apartado-politica.jpg);
     background-size: cover;
@@ -84,13 +98,13 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-}
+} */
 
-.apartados__text {
+/* .apartados__text {
     z-index: 1;
     padding: 5px 10px;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
     text-shadow: 0 4px 10px #000000;
     box-shadow: 0 4px 10px #000000;
-}
+} */
