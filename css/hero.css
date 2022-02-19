@@ -53,6 +53,7 @@ h1 {
     color: var(--color-gray); 
     border: none;
     border-bottom: 1px solid var(--color-gray);
+    background: transparent; /* Especifico sino el Iphone toma otro color */
 }
 
 .hero__input:focus {
