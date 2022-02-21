@@ -1,110 +1,19 @@
-/* .apartados__body {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: 
-    "politica   politica    economia    economia    economia"
-    "deportes   deportes   deportes    espectaculo espectaculo"
-    "tecno      tecno       salud       salud       salud"
-    "clima      clima       clima       envivo      envivo";
-    padding-top: 20px;
-} */
-
 .apartados__body {
     margin: 20px 17%;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid #000000; */
 }
 
 .apartados__name {
-    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
     border-bottom: 2px solid #dfdfdf;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .apartados__name:hover {
     border-bottom: 2px solid var(--main-color);
     color: var(--main-color);
 }
-
-/* .apartados__name::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(36, 41, 67, 0.25);
-} */
-
-/* .apartados__name:hover::after {
-    animation-name: quitar-fondo;
-    animation-duration: 1s;
-} */
-
-/* .apartados__politica {
-    grid-area: politica;
-    background: url(../images/apartado-politica.jpg);
-    background-size: cover;
-}
-
-.apartados__economia {
-    grid-area: economia;
-    background: url(../images/apartado-economia.jpg);
-    background-size: cover;
-}
-
-.apartados__deportes {
-    grid-area: deportes;
-    background: url(../images/apartado-deportes.jpg);
-    background-size: cover;
-}
-
-.apartados__espectaculo {
-    grid-area: espectaculo;
-    background: url(../images/apartado-espectaculo.jpg);
-    background-size: cover;
-}
-
-.apartados__tecno {
-    grid-area: tecno;
-    background: url(../images/apartado-tecno.jpg);
-    background-size: cover;
-}
-
-.apartados__salud {
-    grid-area: salud;
-    background: url(../images/apartado-salud.jpg);
-    background-size: cover;
-}
-
-.apartados__clima {
-    grid-area: clima;
-    background: url(../images/apartado-clima.jpg);
-    background-size: cover;
-}
-
-.apartados__envivo {
-    grid-area: envivo;
-    background: url(../images/apartado-envivo.jpg);
-    background-size: cover;
-}
-
-.apartados__envivo .apartados__text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-} */
-
-/* .apartados__text {
-    z-index: 1;
-    padding: 5px 10px;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
-    text-shadow: 0 4px 10px #000000;
-    box-shadow: 0 4px 10px #000000;
-} */

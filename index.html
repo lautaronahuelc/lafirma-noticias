@@ -29,43 +29,467 @@
     <link rel="stylesheet" href="css/juegos.css">
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tablet-size.css">
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
     <title>LA FIRMA | Nuestro compromiso con la gente</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__flex">
-            <a href="#" class="header__title">LA FIRMA</a>
-        </div>
-        <div class="header__flex">
-            <a href="#" class="header__link">
-                <img class="header__usuario" src="images/icon-usuario.png" alt="Icono Usuario">
-            </a>
-            <a href="#" class="header__link">
-                <img class="header__menu" src="images/icon-menu.png" alt="Icono Menu">
-            </a>
-        </div>
-    </header>
-
-    <section class="hero">
-        <div class="hero__flex">
-            <img src="images/icon-calendar.ico" alt="Icono Calendario" class="hero__calendar">
-            <span class="hero__update">19 ENE 2022 | <span>ACTUALIZADO </span>11:09</span>
-        </div>
-        <div class="hero__flex">
-            <img src="images/logo.png" alt="Imagen Logo" class="hero__logo">
-            <div>
-                <h1>La Firma</h1>
-                <span class="hero__slogan">Nuestro compromiso con la gente</span>
+    <div class="cont-all">
+        <header class="header">
+            <div class="header__flex">
+                <a href="#" class="header__title">
+                    <img class="header__logo" src="images/favicon.ico" alt="Logo">
+                </a>
             </div>
-            <form class="hero__form">
-                <input type="search" placeholder="¿Qué quieres saber hoy?" class="hero__input">
-                <input type="image" src="images/lupa.png">
-            </form>
-        </div>
-    </section>
+            <div class="header__flex">
+                <a href="#" class="header__link">
+                    <img class="header__usuario" src="images/icon-usuario.png" alt="Icono Usuario">
+                </a>
+                <a href="#" class="header__link">
+                    <img class="header__menu" src="images/icon-menu.png" alt="Icono Menu">
+                </a>
+            </div>
+        </header>
+    
+        <section class="hero">
+            <div class="hero__flex hero__fixed">
+                <img src="images/icon-calendar.ico" alt="Icono Calendario" class="hero__calendar">
+                <span class="hero__update">19 ENE 2022 | <span>ACTUALIZADO </span>11:09</span>
+            </div>
+            <div class="hero__flex">
+                <img src="images/logo.png" alt="Imagen Logo" class="hero__logo">
+                <div>
+                    <h1>La Firma</h1>
+                    <span class="hero__slogan">Nuestro compromiso con la gente</span>
+                </div>
+                <form class="hero__form">
+                    <input type="search" placeholder="¿Qué quieres saber hoy?" class="hero__input">
+                    <input type="image" src="images/lupa.png">
+                </form>
+            </div>
+        </section>
+       
+        <main>
+            <!-- Sección Últimas noticias -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Últimas noticias</h2>
+                    <a href="#">
+                        <img class="section__ver-mas" src="images/icon-plus-1.png" alt="Icon Plus">
+                    </a>
+                </header>
+                <section class="section__body">
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/kicillof.jpg" alt="Imagen Kicillof" class="img section__img--portada">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    Kicillof respaldó a Guzmán en la negociación por la deuda externa
+                                </h3>
+                                <p class="section__resume">
+                                    El gobernador bonaerense se reunió con el Presidente y repasaron la gestión en la provincia de Buenos Aires
+                                </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">11 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                    <hr>
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/guzman.jpg" alt="Imagen Guzmán" class="img section__img">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    Sigue la tensión por la deuda: se cayó la reunión de Martín Guzmán con los gobernadores de Juntos por el Cambio
+                                </h3>
+                                <p class="section__resume">
+                                    Se iban a reunir este martes para que el ministro les informe sobre la deuda. Gerardo Morales dijo que la reunión no se hace porque “Guzmán no quiere dar cuenta del ajuste que pactó con el Fondo”
+                                </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">6 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                    <hr>
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/lewandowsky.jpg" alt="Imagen Lewandowsky" class="img section__img">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    Robert Lewandowski superó a Messi y ganó el premio The Best 2021
+                                </h3>
+                                <p class="section__resume">
+                                    El delantero polaco, que ya había sido distinguido por la FIFA en 2020, se sacó la espina tras haber perdido el Balón de Oro ante La Pulga.
+                                </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">2 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+    
+            <!-- Sección Apartados -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Apartados</h2>
+                </header>
+                <section class="apartados__body">
+                    <a href="#" class="apartados__name">
+                        <span class="apartados__text">Política</span>
+                    </a>
+                    <a href="#" class="apartados__name">
+                        <span class="apartados__text">Economía</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <span class="apartados__text">Deportes</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <span class="apartados__text">Espectáculo</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <span class="apartados__text">Tecno</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <span class="apartados__text">Salud</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <span class="apartados__text">Clima</span>
+                    </a>
+                    <a href="#" class=" apartados__name">
+                        <div class="apartados__text">
+                            <img src="images/live-dot.png" alt="Punto rojo titilante" class="live-dot">
+                            <span>En vivo</span>
+                        </div>
+                    </a>
+                </section>
+            </section>
+    
+            <!-- Sección Covid-19 -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Covid-19</h2>
+                    <a href="#">
+                        <img class="section__ver-mas" src="images/icon-plus-1.png" alt="Icon Plus">
+                    </a>
+                </header>
+                <section class="section__body">
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/covid-noticia1.jpg" alt="Imagen Laboratorio" class="img section__img--portada">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    Se registró el número de muertos más alto de la tercera ola
+                                </h3>
+                                <p class="section__resume">
+                                    Se reportaron 191 víctimas fatales y 102.458 contagios; se eleva un poco la ocupación en terapia intensiva
+                                </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">3 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                    <hr>
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/covid-noticia2.jpg" alt="Imagen OMS" class="img section__img">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    La OMS pide no bajar la guardia: “Ómicron es menos grave, pero la narrativa de que es una enfermedad leve cuesta vidas”                            </h3>
+                                <p class="section__resume">
+                                    Los expertos de la Organización Mundial de la Salud advierten de que con ómicron “no termina la pandemia”                            </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">5 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                    <hr>
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/covid-noticia3.JPG" alt="Imagen Hombre Vacunándose" class="img section__img">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    Si soy positivo por covid tras la cuarentena de siete días, ¿puedo contagiar?                            </h3>
+                                <p class="section__resume">
+                                    La cantidad de virus aumenta muy rápidamente los primeros días de la infección y se mantiene alta durante un período de tiempo que varía en función de la persona infectada                            </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">7 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+                <section class="covid-19">
+                    <a href="#" class="covid-19__link">
+                        <img class="covid-19__icon" src="images/covid19-ciencia.png" alt="Icono Telescopio">
+                        <div>
+                            <h4>Ciencia</h4>
+                            <p>Lo que se sabe del virus</p>
+                        </div>
+                    </a>
+                    <a href="#" class="covid-19__link">
+                        <img class="covid-19__icon" src="images/covid19-salud.png" alt="Icono Salud">
+                        <div>
+                            <h4>Salud</h4>
+                            <p>Síntomas claves y cuidados</p>
+                        </div>
+                    </a>
+                    <a href="#" class="covid-19__link">
+                        <img class="covid-19__icon" src="images/covid19-ciudadania.png" alt="Icono Ciudadanía">
+                        <div>
+                            <h4>Ciudadanía</h4>
+                            <p>Restricciones de movimiento</p>
+                        </div>
+                    </a>
+                    <a href="#" class="covid-19__link">
+                        <img class="covid-19__icon" src="images/covid19-economia.png" alt="Icono Economía">
+                        <div>
+                            <h4>Economía</h4>
+                            <p>Efectos adversos y medidas de contención</p>
+                        </div>
+                    </a>
+                </section>
+                <footer class="covid-19__footer">
+                    <p class="covid-19__scroll-text">Covid-19 en la Argentina: informaron 129.709 nuevos casos y 182 muertos en las últimas 24 horas</p>
+                </footer>
+            </section>
+    
+            <!-- Sección Destacados -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Destacados</h2>
+                    <a href="#">
+                        <img class="section__ver-mas" src="images/icon-plus-1.png" alt="Icon Plus">
+                    </a>
+                </header>
+                <section class="section__body destacados">
+                    <h3 class="destacados__subtitle">Historias en profundidad para conocer, entender y actuar</h3>
+                    <div>
+                        <a href="#" class="destacados__link">
+                            <article class="destacados__ggm">
+                                <h4>Indira, el secreto del patriarca Gabriel García Márquez</h4>
+                            </article>
+                        </a>
+                        <a href="#" class="destacados__link">
+                            <article class="destacados__djokovic">
+                                <h4>Djokovic entra en un túnel sin salida</h4>
+                            </article>
+                        </a>
+                        <a href="#" class="destacados__link">
+                            <article class="destacados__trump">
+                                <h4>Chomsky: “Es muy probable que Trump gane en 2024”</h4>
+                            </article>
+                        </a>
+                    </div>
+                </section>
+            </section>
+    
+            <!-- Sección Dolar hoy -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Dolar hoy</h2>
+                    <a href="#">
+                        <img class="section__ver-mas" src="images/icon-plus-1.png" alt="Icon Plus">
+                    </a>
+                </header>
+                <section class="section__body">
+                    <a href="#" class="section__link">
+                        <article class="section__article">
+                            <img src="images/dolar.jpg" alt="Imagen Billetes Dolar" class="img section__img--portada">
+                            <div class="section__flex">
+                                <h3 class="section__title">
+                                    A cuánto llegarán el dólar y la inflación este año, en medio de la incertidumbre por la deuda con el FMI
+                                </h3>
+                                <p class="section__resume">
+                                    Los pronósticos de las consultoras sobre el tipo de cambio y la suba de los precios para 2022 y 2023; cuáles son las asignaturas pendientes y los riesgos para la economía argentina
+                                </p>
+                                <footer class="section__footer">
+                                    <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
+                                    <small class="section__lectura">9 min de lectura</small>
+                                </footer>
+                            </div>
+                        </article>
+                        <hr>
+                        <article class="dolar-hoy">
+                            <div>
+                                <h3>Dolar Banco Nación</h3>
+                                <p>19/01 - 15:10</p>
+                                <span>$110.68</span>
+                            </div>
+                            <div>
+                                <h3>Dolar Blue</h3>
+                                <p>19/01 - 13:45</p>
+                                <span>$211.00</span>
+                            </div>
+                        </article>
+                    </a>
+                </section>
+            </section>
+    
+            <!-- Sección Crucigramas y Juegos -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Crucigramas</h2>
+                    <a href="#">
+                        <img class="section__ver-mas" src="images/icon-plus-1.png" alt="Icon Plus">
+                    </a>
+                </header>
+                <section class="section__body juegos">
+                    <h3 class="juegos__subtitle">
+                        Los clásicos juegos de los periódicos, ahora en formato digital
+                    </h3>
+                    <div>
+                        <article class="juegos__crucigramas">
+                            <a href="#" class="juegos__link">
+                                <figure>
+                                    <img src="images/juegos-crucigrama.png" alt="Logo Crucigrama">
+                                    <figcaption class="juegos__figcaption">Crucigrama</figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                        <article class="juegos__sodoku">
+                            <a href="#" class="juegos__link">
+                                <figure>
+                                    <img src="images/juegos-sodoku.png" alt="Logo Sodoku">
+                                    <figcaption class="juegos__figcaption">Sodoku</figcaption>
+                                </figure>
+                            </a>
+                        </article>
+                        <article class="juegos__sopa">
+                            <a href="#" class="juegos__link">
+                                <figure>
+                                    <img src="images/juegos-sopa.png" alt="Logo Sopa">
+                                    <figcaption class="juegos__figcaption">Sopa de Letra</figcaption>    
+                                </figure>
+                            </a>
+                        </article>
+                    </div>
+                </section>
+            </section>
+    
+            <!-- Sección Contacto -->
+            <section class="section">
+                <header class="section__header">
+                    <h2 class="section__name">Contáctanos</h2>
+                </header>
+                <section class="section__body">
+                    <!-- Formulario de contacto -->
+                    <form action="#" class="contacto">
+                        <div>
+                            <label for="name" class="contacto__label">Nombre</label>
+                            <input type="text" class="contacto__input" id="name" name="name" pattern="[A-zñÑáéíóúÁÉÍÓÚ\s]{2,30}" required>
+                        </div>
+                        <div>
+                            <label for="email" class="contacto__label">Correo</label>
+                            <input type="email" class="contacto__input" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="msj" class="contacto__label">Mensaje</label>
+                            <textarea  class="contacto__msj" name="msj" id="msj" cols="30" rows="10"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Enviar">
+                            <input type="reset" value="Vaciar">
+                        </div>
+                    </form>
+    
+                    <hr>
+    
+                    <!-- Redes Sociales en "Contacto" -->
+                    <nav class="contacto__nav">
+                        <ul class="contacto__ul">
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-home.png" alt="Icon Home">
+                                    <address>
+                                        La Firma Inc <br>
+                                        Bulnes 1789 (1425) <br>
+                                        CABA, Argentina
+                                    </address>
+                                </a>
+                            </li>
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-phone.png" alt="Icon Phone">
+                                    0800-666-1000
+                                </a>
+                            </li>
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-email.png" alt="Icon E-mail">
+                                    contacto@lafirma.com
+                                </a>
+                            </li>
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-twitter.png" alt="Icon Twitter">
+                                    lafirma
+                                </a>
+                            </li>
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-facebook.png" alt="Icon Facebook">
+                                    lafirma
+                                </a>
+                            </li>
+                            <li class="contacto__li">
+                                <a href="#" class="contacto__link">
+                                    <img class="contacto__icon" src="images/icon-instagram.png" alt="Icon Instagram">
+                                    lafirma
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+        </main>
+    
+        <footer class="footer">
+            <p class="footer__edicion">© Ediciones La Firma</p>
+            <div class="footer__flex">
+                <a href="#">
+                    <img class="footer__img" src="images/icon-facebook-light.png" alt="Icon Facebook">
+                </a>
+                <a href="#">
+                    <img class="footer__img" src="images/icon-twitter-light.png" alt="Icon Twitter">
+                </a>
+                <a href="#">
+                    <img class="footer__img" src="images/icon-youtube-light.png" alt="Icon Youtube">
+                </a>
+                <a href="#">
+                    <img class="footer__img" src="images/icon-instagram-light.png" alt="Icon Instagram">
+                </a>
+            </div>
+            <div>
+                <p class="footer__flex">
+                    <a href="#">Contacto</a>
+                    <a href="#">Venta de contenido</a>
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política cookies</a>
+                    <a href="#">Política privacidad</a>
+                    <a href="#">Suscripciones LA FIRMA</a>
+                    <a href="#">RSS</a>
+                </p>
+            </div>
+            <p class="footer__autor">Creado por LNC.dev</p>
+        </footer>
+    
+        <a href="#" class="up-button">
+            <img src="images/arrow-up.png" alt="Botón Subir">
+        </a>
+    </div>
 
     <nav class="nav">
         <ul class="nav__menu">
@@ -78,425 +502,5 @@
             <a href="#" class="nav__link"><li class="nav__item last-item">Contáctanos</li></a>
         </ul>
     </nav> 
-   
-    <main>
-        <!-- Sección Últimas noticias -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Últimas noticias</h2>
-                <a href="#" class="section__ver-mas">
-                    <img src="images/icon-plus-1.png" alt="Icon Plus">
-                </a>
-            </header>
-            <section class="section__body">
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/kicillof.jpg" alt="Imagen Kicillof" class="img section__img--portada">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                Kicillof respaldó a Guzmán en la negociación por la deuda externa
-                            </h3>
-                            <p class="section__resume">
-                                El gobernador bonaerense se reunió con el Presidente y repasaron la gestión en la provincia de Buenos Aires
-                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">11 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-                <hr>
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/guzman.jpg" alt="Imagen Guzmán" class="img section__img">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                Sigue la tensión por la deuda: se cayó la reunión de Martín Guzmán con los gobernadores de Juntos por el Cambio
-                            </h3>
-                            <p class="section__resume">
-                                Se iban a reunir este martes para que el ministro les informe sobre la deuda. Gerardo Morales dijo que la reunión no se hace porque “Guzmán no quiere dar cuenta del ajuste que pactó con el Fondo”
-                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">6 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-                <hr>
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/lewandowsky.jpg" alt="Imagen Lewandowsky" class="img section__img">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                Robert Lewandowski superó a Messi y ganó el premio The Best 2021
-                            </h3>
-                            <p class="section__resume">
-                                El delantero polaco, que ya había sido distinguido por la FIFA en 2020, se sacó la espina tras haber perdido el Balón de Oro ante La Pulga.
-                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">2 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-            </section>
-        </section>
-
-        <!-- Sección Apartados -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Apartados</h2>
-            </header>
-            <section class="apartados__body">
-                <a href="#" class="apartados__name">
-                    <span class="apartados__text">Política</span>
-                </a>
-                <a href="#" class="apartados__name">
-                    <span class="apartados__text">Economía</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <span class="apartados__text">Deportes</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <span class="apartados__text">Espectáculo</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <span class="apartados__text">Tecno</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <span class="apartados__text">Salud</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <span class="apartados__text">Clima</span>
-                </a>
-                <a href="#" class=" apartados__name">
-                    <div class="apartados__text">
-                        <img src="images/live-dot.png" alt="Punto rojo titilante" class="live-dot">
-                        <span>En vivo</span>
-                    </div>
-                </a>
-            </section>
-        </section>
-
-        <!-- Sección Covid-19 -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Covid-19</h2>
-                <a href="#" class="section__ver-mas">
-                    <img src="images/icon-plus-1.png" alt="Icon Plus">
-                </a>
-            </header>
-            <section class="section__body">
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/covid-noticia1.jpg" alt="Imagen Laboratorio" class="img section__img--portada">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                Se registró el número de muertos más alto de la tercera ola
-                            </h3>
-                            <p class="section__resume">
-                                Se reportaron 191 víctimas fatales y 102.458 contagios; se eleva un poco la ocupación en terapia intensiva
-                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">3 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-                <hr>
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/covid-noticia2.jpg" alt="Imagen OMS" class="img section__img">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                La OMS pide no bajar la guardia: “Ómicron es menos grave, pero la narrativa de que es una enfermedad leve cuesta vidas”                            </h3>
-                            <p class="section__resume">
-                                Los expertos de la Organización Mundial de la Salud advierten de que con ómicron “no termina la pandemia”                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">5 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-                <hr>
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/covid-noticia3.JPG" alt="Imagen Hombre Vacunándose" class="img section__img">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                Si soy positivo por covid tras la cuarentena de siete días, ¿puedo contagiar?                            </h3>
-                            <p class="section__resume">
-                                La cantidad de virus aumenta muy rápidamente los primeros días de la infección y se mantiene alta durante un período de tiempo que varía en función de la persona infectada                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">7 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                </a>
-            </section>
-            <section class="covid-19">
-                <a href="#" class="covid-19__link">
-                    <img class="covid-19__icon" src="images/covid19-ciencia.png" alt="Icono Telescopio">
-                    <div>
-                        <h4>Ciencia</h4>
-                        <p>Lo que se sabe del virus</p>
-                    </div>
-                </a>
-                <a href="#" class="covid-19__link">
-                    <img class="covid-19__icon" src="images/covid19-salud.png" alt="Icono Salud">
-                    <div>
-                        <h4>Salud</h4>
-                        <p>Síntomas claves y cuidados</p>
-                    </div>
-                </a>
-                <a href="#" class="covid-19__link">
-                    <img class="covid-19__icon" src="images/covid19-ciudadania.png" alt="Icono Ciudadanía">
-                    <div>
-                        <h4>Ciudadanía</h4>
-                        <p>Restricciones de movimiento</p>
-                    </div>
-                </a>
-                <a href="#" class="covid-19__link">
-                    <img class="covid-19__icon" src="images/covid19-economia.png" alt="Icono Economía">
-                    <div>
-                        <h4>Economía</h4>
-                        <p>Efectos adversos y medidas de contención</p>
-                    </div>
-                </a>
-            </section>
-            <footer class="covid-19__footer">
-                <p class="covid-19__scroll-text">Covid-19 en la Argentina: informaron 129.709 nuevos casos y 182 muertos en las últimas 24 horas</p>
-            </footer>
-        </section>
-
-        <!-- Sección Destacados -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Destacados</h2>
-                <a href="#" class="section__ver-mas">
-                    <img src="images/icon-plus-1.png" alt="Icon Plus">
-                </a>
-            </header>
-            <section class="section__body destacados">
-                <h3 class="destacados__subtitle">Historias en profundidad para conocer, entender y actuar</h3>
-                <div>
-                    <a href="#" class="destacados__link">
-                        <article class="destacados__ggm">
-                            <h4>Indira, el secreto del patriarca Gabriel García Márquez</h4>
-                        </article>
-                    </a>
-                    <a href="#" class="destacados__link">
-                        <article class="destacados__djokovic">
-                            <h4>Djokovic entra en un túnel sin salida</h4>
-                        </article>
-                    </a>
-                    <a href="#" class="destacados__link">
-                        <article class="destacados__trump">
-                            <h4>Chomsky: “Es muy probable que Trump gane en 2024”</h4>
-                        </article>
-                    </a>
-                </div>
-            </section>
-        </section>
-
-        <!-- Sección Dolar hoy -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Dolar hoy</h2>
-                <a href="#" class="section__ver-mas">
-                    <img src="images/icon-plus-1.png" alt="Icon Plus">
-                </a>
-            </header>
-            <section class="section__body">
-                <a href="#" class="section__link">
-                    <article class="section__article">
-                        <img src="images/dolar.jpg" alt="Imagen Billetes Dolar" class="img section__img--portada">
-                        <div class="section__flex">
-                            <h3 class="section__title">
-                                A cuánto llegarán el dólar y la inflación este año, en medio de la incertidumbre por la deuda con el FMI
-                            </h3>
-                            <p class="section__resume">
-                                Los pronósticos de las consultoras sobre el tipo de cambio y la suba de los precios para 2022 y 2023; cuáles son las asignaturas pendientes y los riesgos para la economía argentina
-                            </p>
-                            <footer class="section__footer">
-                                <img src="images/icon-lectura.png" alt="Icono Lectura" class="section__icon">
-                                <small class="section__lectura">9 min de lectura</small>
-                            </footer>
-                        </div>
-                    </article>
-                    <hr>
-                    <article class="dolar-hoy">
-                        <div>
-                            <h3>Dolar Banco Nación</h3>
-                            <p>19/01 - 15:10</p>
-                            <span>$110.68</span>
-                        </div>
-                        <div>
-                            <h3>Dolar Blue</h3>
-                            <p>19/01 - 13:45</p>
-                            <span>$211.00</span>
-                        </div>
-                    </article>
-                </a>
-                <hr>
-            </section>
-        </section>
-
-        <!-- Sección Crucigramas y Juegos -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Crucigramas</h2>
-                <a href="#" class="section__ver-mas">
-                    <img src="images/icon-plus-1.png" alt="Icon Plus">
-                </a>
-            </header>
-            <section class="section__body juegos">
-                <h3 class="juegos__subtitle">
-                    Los clásicos juegos de los periódicos, ahora en formato digital
-                </h3>
-                <div>
-                    <article class="juegos__crucigramas">
-                        <a href="#" class="juegos__link">
-                            <figure>
-                                <img src="images/juegos-crucigrama.png" alt="Logo Crucigrama">
-                                <figcaption class="juegos__figcaption">Crucigrama</figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="juegos__sodoku">
-                        <a href="#" class="juegos__link">
-                            <figure>
-                                <img src="images/juegos-sodoku.png" alt="Logo Sodoku">
-                                <figcaption class="juegos__figcaption">Sodoku</figcaption>
-                            </figure>
-                        </a>
-                    </article>
-                    <article class="juegos__sopa">
-                        <a href="#" class="juegos__link">
-                            <figure>
-                                <img src="images/juegos-sopa.png" alt="Logo Sopa">
-                                <figcaption class="juegos__figcaption">Sopa de Letra</figcaption>    
-                            </figure>
-                        </a>
-                    </article>
-                </div>
-            </section>
-        </section>
-
-        <!-- Sección Contacto -->
-        <section class="section">
-            <header class="section__header">
-                <h2 class="section__name">Contáctanos</h2>
-            </header>
-            <section class="section__body">
-                <!-- Formulario de contacto -->
-                <form action="#" class="contacto">
-                    <div>
-                        <label for="name" class="contacto__label">Nombre</label>
-                        <input type="text" class="contacto__input" id="name" name="name" pattern="[A-zñÑáéíóúÁÉÍÓÚ\s]{2,30}" required>
-                    </div>
-                    <div>
-                        <label for="email" class="contacto__label">Correo</label>
-                        <input type="email" class="contacto__input" id="email" name="email" required>
-                    </div>
-                    <div>
-                        <label for="msj" class="contacto__label">Mensaje</label>
-                        <textarea  class="contacto__msj" name="msj" id="msj" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Vaciar">
-                    </div>
-                </form>
-
-                <hr>
-
-                <!-- Redes Sociales en "Contacto" -->
-                <nav class="contacto__nav">
-                    <ul class="contacto__ul">
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-home.png" alt="Icon Home">
-                                <address>
-                                    La Firma Inc <br>
-                                    Bulnes 1789 (1425) <br>
-                                    CABA, Argentina
-                                </address>
-                            </a>
-                        </li>
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-phone.png" alt="Icon Phone">
-                                0800-666-1000
-                            </a>
-                        </li>
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-email.png" alt="Icon E-mail">
-                                contacto@lafirma.com
-                            </a>
-                        </li>
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-twitter.png" alt="Icon Twitter">
-                                lafirma
-                            </a>
-                        </li>
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-facebook.png" alt="Icon Facebook">
-                                lafirma
-                            </a>
-                        </li>
-                        <li class="contacto__li">
-                            <a href="#" class="contacto__link">
-                                <img class="contacto__icon" src="images/icon-instagram.png" alt="Icon Instagram">
-                                lafirma
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </section>
-    </main>
-
-    <footer class="footer">
-        <p class="footer__edicion">© Ediciones La Firma</p>
-        <div class="footer__flex">
-            <a href="#">
-                <img class="footer__img" src="images/icon-facebook-light.png" alt="Icon Facebook">
-            </a>
-            <a href="#">
-                <img class="footer__img" src="images/icon-twitter-light.png" alt="Icon Twitter">
-            </a>
-            <a href="#">
-                <img class="footer__img" src="images/icon-youtube-light.png" alt="Icon Youtube">
-            </a>
-            <a href="#">
-                <img class="footer__img" src="images/icon-instagram-light.png" alt="Icon Instagram">
-            </a>
-        </div>
-        <div>
-            <p class="footer__flex">
-                <a href="#">Contacto</a>
-                <a href="#">Venta de contenido</a>
-                <a href="#">Aviso legal</a>
-                <a href="#">Política cookies</a>
-                <a href="#">Política privacidad</a>
-                <a href="#">Suscripciones LA FIRMA</a>
-                <a href="#">RSS</a>
-            </p>
-        </div>
-        <p class="footer__autor">Creado por LNC.dev</p>
-    </footer>
-
-    <a href="#" class="up-button">
-        <img src="images/arrow-up.png" alt="Botón Subir">
-    </a>
 </body>
 </html>
