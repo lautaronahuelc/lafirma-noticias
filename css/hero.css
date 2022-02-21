@@ -56,18 +56,18 @@ h1 {
     width: 180px;
     height: 26px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 0.8em;
     color: var(--color-gray); 
     border: none;
-    border: 1px solid var(--color-gray);
+    border-bottom: 1px solid var(--color-gray);
     background: transparent; /* Especifico sino el Iphone toma otro color */
 }
 
 .hero__input:focus {
     outline: none;
     color: initial;
-    border: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
 }
 
 input[type="image"] {

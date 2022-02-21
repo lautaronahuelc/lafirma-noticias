@@ -20,13 +20,12 @@
 .destacados__link {
     max-width: 215px; /* Para que cuando agrando el viewport no se agrande */
     width: 70%;
-    box-shadow: 5px 5px 10px rgba(0,0,0,0.4);
 }
 
 .destacados__link:hover {
     margin-top: -2px;
-    outline: 3px solid var(--main-color);
-    box-shadow: 10px 10px 20px rgba(0,0,0,0.4);
+    margin-bottom: 2px; /* Para que no se mueva lo de abajo */
+    box-shadow: 1px 1px 20px rgba(0,0,0,0.4);
 }
 
 .destacados__ggm {
