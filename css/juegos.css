@@ -31,13 +31,15 @@
 
 .juegos figure {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.9em;
 }
 
 .juegos img {
     width: 200px;
 }
+
+/* .juegos .section__ver-mas {
+    margin: 0 0 0 20px;
+} */
 
 
 /* .juegos__subtitle {

@@ -6,6 +6,7 @@
     top: 45px;
     right: 0;
     right: -272px; /* Esconde el nav */
+    /* right: 0; */
     z-index: 1;
     padding: 5px;
     width: 272px;

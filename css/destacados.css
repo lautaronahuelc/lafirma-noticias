@@ -14,12 +14,11 @@
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    /* justify-content: center; */
 }
 
 .destacados__link {
     max-width: 215px; /* Para que cuando agrando el viewport no se agrande */
-    width: 70%;
+    width: 215px;
 }
 
 .destacados__link:hover {

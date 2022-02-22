@@ -1,11 +1,11 @@
 .covid-19 {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: -20px;
-    margin-right: -20px;
-    margin-top: 20px;
+    flex-direction: column;
     gap: 20px;
-    padding: 20px 20px;
+    margin: 40px 0 0 0;
+    padding: 20px;
+    width: 100%;
+    max-width: 650px;
     background-color: #e8e8e8;
 }
 
@@ -40,10 +40,9 @@
 }
 
 .covid-19__footer {
-    margin-left: -20px; /* Para quitar el margin-left de 20px del section */
     padding: 7px 0;
-    min-width: 110%; /* Un poquito más de 100% porque lo corrí -20px para la izquierda */
-    width: max-content;
+    width: 100%;
+    max-width: 650px;
     font-family: 'Lora';
     font-weight: 600;
     color: #FFFFFF;
@@ -53,6 +52,7 @@
 
 .covid-19__scroll-text {
     margin: 0;
+    min-width: max-content;
     animation: scroll-text;
     animation-duration: 20s;
     animation-timing-function: linear;

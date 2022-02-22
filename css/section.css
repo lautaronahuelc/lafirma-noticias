@@ -1,12 +1,26 @@
 .section {
     margin: 100px 20px 0 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+/* Sección contacto */
+.section:last-child {
+    margin-bottom: 100px;
+}
+
+/* Secció destacados */
+.section:nth-child(4),
+.section:nth-child(2) {
+    padding-bottom: 80px;
 }
 
 .section__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 50px;
+    margin: 20px 0;
     border-bottom: 4px solid var(--color-black);
 }
 
@@ -17,10 +31,18 @@
 }
 
 .section__ver-mas {
-    width: 20px;
+    margin: 70px 0 20px 0;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border-bottom: 1.5px solid var(--main-color);
 }
 
-/* .section__body {} */
+.section__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .section__link {
     display: block;

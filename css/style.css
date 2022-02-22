@@ -20,6 +20,10 @@ body {
     color: var(--color-black);
 }
 
+.cont-all {
+    width: 100%;
+}
+
 hr {
     width: 90%;
     border: none;
