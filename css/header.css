@@ -43,6 +43,10 @@
     height: inherit;
 }
 
+.header__menu:hover {
+    cursor: pointer;
+}
+
 .header__usuario {
     height: 30px;
 }

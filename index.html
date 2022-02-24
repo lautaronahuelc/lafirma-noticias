@@ -46,9 +46,7 @@
             <a href="#" class="header__link">
                 <img class="header__usuario" src="images/icon-usuario.png" alt="Icono Usuario">
             </a>
-            <a href="#" class="header__link">
-                <img class="header__menu" src="images/icon-menu.png" alt="Icono Menu">
-            </a>
+            <img class="header__menu" id="button-menu" src="images/icon-menu.png" alt="Icono Menu">
         </div>
     </header>
 
@@ -72,6 +70,7 @@
     
     <main>
         <!-- Sección Últimas noticias -->
+        <a name="ultimas-noticias"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Últimas noticias</h2>
@@ -135,6 +134,7 @@
         </section>
 
         <!-- Sección Apartados -->
+        <a name="apartados"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Apartados</h2>
@@ -171,6 +171,7 @@
         </section>
 
         <!-- Sección Covid-19 -->
+        <a name="covid-19"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Covid-19</h2>
@@ -268,6 +269,7 @@
 
 
         <!-- Sección Destacados -->
+        <a name="destacados"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Destacados</h2>
@@ -295,6 +297,7 @@
         </section>
 
         <!-- Sección Dolar hoy -->
+        <a name="dolar-hoy"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Dolar hoy</h2>
@@ -335,6 +338,7 @@
         </section>
 
         <!-- Sección Crucigramas y Juegos -->
+        <a name="crucigramas"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Crucigramas</h2>
@@ -373,6 +377,7 @@
         </section>
 
         <!-- Sección Contacto -->
+        <a name="contactanos"></a>
         <section class="section">
             <header class="section__header">
                 <h2 class="section__name">Contáctanos</h2>
@@ -483,16 +488,18 @@
         <img src="images/arrow-up.png" alt="Botón Subir">
     </a>
 
-    <nav class="nav">
+    <nav class="nav" id="menu-oculto">
         <ul class="nav__menu">
-            <a href="#" class="nav__link"><li class="nav__item">Últimas noticias</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Apartados</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Covid-19</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Destacados</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Dolar hoy</li></a>
-            <a href="#" class="nav__link"><li class="nav__item">Crucigramas</li></a>
-            <a href="#" class="nav__link"><li class="nav__item last-item">Contáctanos</li></a>
+            <a href="#ultimas-noticias" class="nav__link"><li class="nav__item">Últimas noticias</li></a>
+            <a href="#apartados" class="nav__link"><li class="nav__item">Apartados</li></a>
+            <a href="#covid-19" class="nav__link"><li class="nav__item">Covid-19</li></a>
+            <a href="#destacados" class="nav__link"><li class="nav__item">Destacados</li></a>
+            <a href="#dolar-hoy" class="nav__link"><li class="nav__item">Dolar hoy</li></a>
+            <a href="#crucigramas" class="nav__link"><li class="nav__item">Crucigramas</li></a>
+            <a href="#contactanos" class="nav__link"><li class="nav__item last-item">Contáctanos</li></a>
         </ul>
     </nav> 
+
+    <script src="js/app.js"></script>
 </body>
 </html>
