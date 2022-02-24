@@ -27,20 +27,6 @@
    animation-fill-mode: forwards;
 }
 
-.cont-all {
-    position: relative;
-    animation-name: volver-todo;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-}
-
-.cont-all--move {
-    position: relative;
-    animation-name: correr-todo;
-    animation-duration: 0.5s;
-    animation-fill-mode: forwards;
-}
-
 .nav__menu {
     list-style: none;
     padding: 5px;
