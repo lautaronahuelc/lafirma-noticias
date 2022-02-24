@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    top: 0;
+    top: 45px;
     right: 0;
     right: -272px; /* Esconde el nav */
     /* right: 0; */
