@@ -32,10 +32,15 @@
 
 .section__ver-mas {
     margin: 70px 0 20px 0;
-    padding-bottom: 3px;
+    padding: 10px 20px;
     text-transform: uppercase;
     color: var(--main-color);
-    border-bottom: 1.5px solid var(--main-color);
+    border: 2px solid var(--main-color);
+}
+
+.section__ver-mas:hover {
+    color: #ffffff;
+    background-color: var(--main-color);
 }
 
 .section__body {
